@@ -12,7 +12,7 @@
       navigation
       padding
       arrows
-      height="300px"
+      height="90vh"
       class="bg-purple text-white shadow-1 rounded-borders"
     >
       <q-carousel-slide name="style" class="column no-wrap flex-center">

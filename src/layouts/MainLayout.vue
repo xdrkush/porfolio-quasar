@@ -20,6 +20,15 @@
     >
       <q-scroll-area class="fit">
         <q-list padding>
+          <q-item clickable v-ripple to="/">
+            <q-item-section avatar>
+              <q-icon name="inbox" />
+            </q-item-section>
+
+            <q-item-section>Acceuil</q-item-section>
+          </q-item>
+          <q-separator></q-separator>
+
           <q-item clickable v-ripple to="/about">
             <q-item-section avatar>
               <q-icon name="inbox" />
@@ -27,6 +36,7 @@
 
             <q-item-section>Présentation</q-item-section>
           </q-item>
+          <q-separator></q-separator>
 
           <q-item active clickable v-ripple to="/contact">
             <q-item-section avatar>
@@ -78,8 +88,8 @@
     </q-drawer>
 
     <q-page-container>
-      <q-page padding>
-        <router-view></router-view>
+      <q-page>
+        <router-view/>
       </q-page>
     </q-page-container>
   </q-layout>
