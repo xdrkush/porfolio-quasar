@@ -3,11 +3,11 @@
       <div class="row">
           <div class="col-6">
             <q-img
-            src="https://cdn.quasar.dev/img/parallax2.jpg"
-            style="width: 100%;height:80%"
+            src="https://cdn.pixabay.com/photo/2018/02/11/09/51/block-chain-3145392_960_720.jpg"
+            style="width: 100%;height:45vh"
             >
             <div class="absolute-bottom text-subtitle1 text-center">
-                Caption
+                Sur mon temps libre
             </div>
             </q-img>
           </div>
@@ -21,19 +21,26 @@
           </div>
       </div>
       <div class='row q-pa-lg' >
-        <div class="col-3 q-pa-md" :key="n" v-for="n in 8">
-          <q-card  s="my-card">
-            <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
-              <div class="absolute-bottom">
-                <div class="text-h6">Our Changing Planet</div>
-                <div class="text-subtitle2">by John Doe</div>
-              </div>
-            </q-img>
+        <div class="col-3 q-pa-md col-md-4 col-lg-3 col-sm-6 col-xs-12" :key="n" v-for="n in 8">
+          <q-card class="my-card" flat bordered>
+            <q-card-section horizontal>
+              <q-card-section class="q-pt-xs">
+                <div class="text-overline">Overline</div>
+                <div class="text-h5 q-mt-sm q-mb-xs">Title</div>
+                <div class="text-caption text-grey">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </q-card-section>
 
-            <q-card-actions>
-              <q-btn flat>Action 1</q-btn>
-              <q-btn flat>Action 2</q-btn>
-            </q-card-actions>
+              <q-card-section class="col-5 flex flex-center">
+                <q-img
+                  class="rounded-borders"
+                  src="https://cdn.quasar.dev/img/parallax2.jpg"
+                />
+              </q-card-section>
+            </q-card-section>
+
+            <q-separator />
           </q-card>
         </div>
       </div>

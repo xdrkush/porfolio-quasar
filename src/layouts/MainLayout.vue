@@ -38,7 +38,7 @@
           </q-item>
           <q-separator></q-separator>
 
-          <q-item active clickable v-ripple to="/contact">
+          <q-item clickable v-ripple to="/contact">
             <q-item-section avatar>
               <q-icon name="star" />
             </q-item-section>

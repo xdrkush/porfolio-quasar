@@ -3,11 +3,11 @@
       <div class="row">
           <div class="col-6">
             <q-img
-            src="https://cdn.quasar.dev/img/parallax2.jpg"
-            style="width: 100%;height:80%"
+            src="https://cdn.pixabay.com/photo/2015/10/30/10/41/internet-1013671_960_720.jpg"
+            style="width: 100%;height:45vh"
             >
             <div class="absolute-bottom text-subtitle1 text-center">
-                Caption
+                Envoyer moi un message
             </div>
             </q-img>
           </div>
@@ -51,7 +51,7 @@
 export default {
   data () {
     return {
-      title: 'me contacter',
+      title: 'me contacter,',
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }

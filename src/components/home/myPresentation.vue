@@ -4,14 +4,14 @@
           <div class="col">
             <q-img
             src="https://cdn.quasar.dev/img/parallax1.jpg"
-            style="width: 100%;height:60%"
+            style="width: 100%;height:45vh"
             >
             <div class="absolute-bottom text-subtitle1 text-center">
                 Caption
             </div>
             </q-img>
           </div>
-          <div class="col justify-evenly">
+          <div class="col text-center">
               <div class="q-ma-md">
                   <h4>{{ title }}</h4>
               </div>
@@ -21,8 +21,8 @@
           </div>
       </div>
       <div class='row'>
-          <div class="col">
-              <div class="q-ma-md text-right">
+          <div class="col text-center">
+              <div class="q-ma-md">
                   <h4>{{ title }}</h4>
               </div>
               <div class="q-ma-md">
@@ -32,7 +32,7 @@
           <div class="col">
             <q-img
             src="https://cdn.quasar.dev/img/parallax2.jpg"
-            style="width: 100%;height:60%"
+            style="width: 100%;height:45vh"
             >
             <div class="absolute-bottom text-subtitle1 text-center">
                 Caption
