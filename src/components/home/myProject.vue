@@ -6,7 +6,7 @@
             src="https://cdn.pixabay.com/photo/2018/02/11/09/51/block-chain-3145392_960_720.jpg"
             style="width: 100%;height:45vh"
             >
-            <div class="absolute-bottom text-subtitle1 text-center">
+            <div class="absolute-bottom text-subtitle1 text-center text-bold">
                 Sur mon temps libre
             </div>
             </q-img>

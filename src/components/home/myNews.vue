@@ -6,7 +6,7 @@
             src="https://cdn.pixabay.com/photo/2017/02/20/14/18/business-2082639_960_720.jpg"
             style="width: 100%;height:45vh"
             >
-            <div class="absolute-bottom text-subtitle1 text-center">
+            <div class="absolute-bottom text-subtitle1 text-center text-bold">
                 flux
             </div>
             </q-img>

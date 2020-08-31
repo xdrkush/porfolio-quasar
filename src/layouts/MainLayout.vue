@@ -92,6 +92,7 @@
         <router-view/>
       </q-page>
     </q-page-container>
+
   </q-layout>
 </template>
 

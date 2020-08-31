@@ -6,7 +6,7 @@
             src="https://cdn.quasar.dev/img/parallax1.jpg"
             style="width: 100%;height:45vh"
             >
-            <div class="absolute-bottom text-subtitle1 text-center">
+            <div class="absolute-bottom text-subtitle1 text-center text-bold">
                 Caption
             </div>
             </q-img>

@@ -6,8 +6,8 @@
             src="https://cdn.pixabay.com/photo/2018/06/08/00/48/developer-3461405_960_720.png"
             style="width: 100%;height:45vh"
             >
-            <div class="absolute-bottom text-subtitle1 text-center">
-                Caption
+            <div class="absolute-bottom text-subtitle1 text-center text-bold">
+                skill
             </div>
             </q-img>
           </div>
