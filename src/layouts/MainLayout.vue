@@ -16,13 +16,13 @@
       :width="200"
       :breakpoint="500"
       bordered
-      content-class="bg-grey-3"
+      content-class="bg-grey-4"
     >
       <q-scroll-area class="fit">
         <q-list padding>
           <q-item clickable v-ripple to="/">
             <q-item-section avatar>
-              <q-icon name="inbox" />
+              <q-icon name="home" />
             </q-item-section>
 
             <q-item-section>Acceuil</q-item-section>
@@ -31,16 +31,16 @@
 
           <q-item clickable v-ripple to="/about">
             <q-item-section avatar>
-              <q-icon name="inbox" />
+              <q-icon name="person_pin" />
             </q-item-section>
 
-            <q-item-section>Présentation</q-item-section>
+            <q-item-section>présentation,</q-item-section>
           </q-item>
           <q-separator></q-separator>
 
           <q-item clickable v-ripple to="/contact">
             <q-item-section avatar>
-              <q-icon name="star" />
+              <q-icon name="drafts" />
             </q-item-section>
 
             <q-item-section>me contacter,</q-item-section>
@@ -48,7 +48,7 @@
 
           <q-item clickable v-ripple to="/social">
             <q-item-section avatar>
-              <q-icon name="send" />
+              <q-icon name="person_add" />
             </q-item-section>
 
             <q-item-section>réseaux,</q-item-section>
@@ -58,7 +58,7 @@
 
           <q-item clickable v-ripple to="/skill">
             <q-item-section avatar>
-              <q-icon name="drafts" />
+              <q-icon name="engineering" />
             </q-item-section>
 
             <q-item-section>Compétences,</q-item-section>
@@ -68,7 +68,7 @@
 
           <q-item clickable v-ripple to="/project">
             <q-item-section avatar>
-              <q-icon name="drafts" />
+              <q-icon name="extension" />
             </q-item-section>
 
             <q-item-section>Projets,</q-item-section>
@@ -77,7 +77,7 @@
 
           <q-item clickable v-ripple to="/news">
             <q-item-section avatar>
-              <q-icon name="drafts" />
+              <q-icon name="fact_check" />
             </q-item-section>
 
             <q-item-section>news.</q-item-section>

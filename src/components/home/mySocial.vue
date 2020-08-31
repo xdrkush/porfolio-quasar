@@ -3,6 +3,7 @@
       <div class="row">
           <div class="col-6">
             <q-img
+            transition="scale"
             src="https://www.tmncorp.com/wp-content/uploads/2016/06/social_media_marketing.washington.dc_.marketing.firm_.png"
             style="width: 100%;height:45vh"
             >
@@ -12,10 +13,10 @@
             </q-img>
           </div>
           <div class="col-6">
-              <div class="q-ma-md">
-                  <h4>{{ title }}</h4>
+              <div class="q-ma-md text-grey-4">
+                  <h4><u>{{ title }}</u></h4>
               </div>
-              <div class="q-ma-md">
+              <div class="q-ma-md text-grey-10 text-bold">
                   <p>{{ lorem }}</p>
               </div>
           </div>
@@ -44,7 +45,7 @@
 export default {
   data () {
     return {
-      title: 'mes réseaux,',
+      title: 'mes réseaux ,',
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }

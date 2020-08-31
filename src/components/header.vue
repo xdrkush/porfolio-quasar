@@ -12,28 +12,29 @@
       navigation
       padding
       arrows
+      width="100vh"
       height="90vh"
-      class="bg-purple text-white shadow-1 rounded-borders"
+      class="text-white shadow-1 rounded-borders transparent"
     >
-      <q-carousel-slide name="style" class="column no-wrap flex-center">
+      <q-carousel-slide name="style" class="column no-wrap flex-center" img-src="~assets/cover-1.png">
         <q-icon name="style" size="56px" />
         <div class="q-mt-md text-center">
           {{ lorem }}
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="tv" class="column no-wrap flex-center">
+      <q-carousel-slide name="tv" class="column no-wrap flex-center" img-src="~assets/cover-1.png">
         <q-icon name="live_tv" size="56px" />
         <div class="q-mt-md text-center">
           {{ lorem }}
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="layers" class="column no-wrap flex-center">
+      <q-carousel-slide name="layers" class="column no-wrap flex-center" img-src="~assets/cover-1.png">
         <q-icon name="layers" size="56px" />
         <div class="q-mt-md text-center">
           {{ lorem }}
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="map" class="column no-wrap flex-center">
+      <q-carousel-slide name="map" class="column no-wrap flex-center" img-src="~assets/cover-1.png">
         <q-icon name="terrain" size="56px" />
         <div class="q-mt-md text-center">
           {{ lorem }}

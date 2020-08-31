@@ -3,6 +3,7 @@
       <div class="row">
           <div class="col-6">
             <q-img
+            transition="jump-up"
             src="https://cdn.pixabay.com/photo/2018/06/08/00/48/developer-3461405_960_720.png"
             style="width: 100%;height:45vh"
             >
@@ -12,10 +13,10 @@
             </q-img>
           </div>
           <div class="col-6">
-              <div class="q-ma-md">
-                  <h4>{{ title }}</h4>
+              <div class="q-ma-md text-grey-4">
+                  <h4><u>{{ title }}</u></h4>
               </div>
-              <div class="q-ma-md">
+              <div class="q-ma-md text-grey-10 text-bold">
                   <p>{{ lorem }}</p>
               </div>
           </div>
