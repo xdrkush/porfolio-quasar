@@ -21,7 +21,7 @@
           <q-list>
             <q-item-label header>Playlist</q-item-label>
             <q-item v-for="song in songs" :key="song.src"
-              clickable v-close-popup tabindex="0" @click="play(song)"
+              clickable v-close-popup tabindex="0" @click="play(song)" class=""
             >
               <q-item-section avatar>
                 <q-avatar icon="library_music" color="primary" text-color="lime" />
