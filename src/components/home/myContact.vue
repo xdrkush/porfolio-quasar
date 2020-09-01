@@ -52,6 +52,7 @@
 export default {
   data () {
     return {
+      text: 'V-Model',
       title: 'me contacter,',
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }

@@ -54,7 +54,7 @@ export default {
   data () {
     return {
       title: 'mes compétences,',
-      value: '50',
+      value: 50,
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }
