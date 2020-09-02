@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
             <q-img
             transition="scale"
             src="https://www.tmncorp.com/wp-content/uploads/2016/06/social_media_marketing.washington.dc_.marketing.firm_.png"
@@ -12,7 +12,7 @@
             </div>
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>
@@ -22,7 +22,7 @@
           </div>
       </div>
       <div class='row q-pa-lg' >
-        <div class="col-3 q-pa-md col-md-3 col-lg-2 col-sm-4 col-xs-6"
+        <div class="col-3 col-md-3 col-lg-2 col-sm-4 col-xs-6"
           :key="soc" v-for="soc in social"
         >
           <q-card  class="my-card">
@@ -51,24 +51,9 @@ export default {
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
       social: [
         {
-          name: 'Twitter',
-          link: 'https://twitter.com/',
-          img: 'https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png'
-        },
-        {
-          name: 'Facebuk',
-          link: 'https://mastodon.social/about',
-          img: 'https://pngimg.com/uploads/telegram/telegram_PNG19.png'
-        },
-        {
-          name: 'Mastodon',
-          link: 'https://mastodon.social/about',
-          img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Mastodon_Logotype_%28Simple%29.svg/953px-Mastodon_Logotype_%28Simple%29.svg.png'
-        },
-        {
           name: 'Framasphere',
           link: 'https://framasphere.org/',
-          img: 'https://framalibre.org/sites/default/files/leslogos/logoframasphere.png'
+          img: '~/assets/licorn4001.png'
         }
       ]
     }

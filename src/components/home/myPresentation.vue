@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col">
+          <div class="col-xs-12">
             <q-img
             transition="fade"
             src="https://cdn.quasar.dev/img/parallax1.jpg"
@@ -12,7 +12,7 @@
             </div>
             </q-img>
           </div>
-          <div class="col text-center">
+          <div class="col-xs-12 text-center">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>
@@ -22,7 +22,7 @@
           </div>
       </div>
       <div class='row'>
-          <div class="col text-center">
+          <div class="col-xs-12 text-center">
               <div class="q-ma-md text-grey-4">
                   <h4>{{ title }}</h4>
               </div>
@@ -30,7 +30,7 @@
                   <p>{{ lorem }}</p>
               </div>
           </div>
-          <div class="col">
+          <div class="col-xs-12">
             <q-img
             transition="fade"
             src="https://cdn.quasar.dev/img/parallax2.jpg"

@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
             <q-img
             transition="rotate"
             src="https://cdn.pixabay.com/photo/2018/02/11/09/51/block-chain-3145392_960_720.jpg"
@@ -12,7 +12,7 @@
             </div>
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>

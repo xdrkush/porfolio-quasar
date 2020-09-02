@@ -1,12 +1,12 @@
 <template>
   <q-layout view="hHh Lpr lff" container style="height: 100vh" class="shadow-2 rounded-borders">
     <q-header elevated class="row no-wrap shadow-1 bg-black">
-      <q-toolbar class="col-6">
+      <q-toolbar class="col-md-6 col-xs-2">
         <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
         <q-toolbar-title>Hsuk Rd</q-toolbar-title>
       </q-toolbar>
 
-      <q-toolbar class="col-6 bg-primary text-white">
+      <q-toolbar class="col-md-6 col-xs-10 bg-primary text-white">
         <q-space />
         <q-btn flat round dense @click="prev" icon="skip_previous" />
         <q-btn stretch flat :label="current.title"/>

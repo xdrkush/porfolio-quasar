@@ -1,18 +1,18 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
             <q-img
             transition="flip-right"
             src="https://cdn.pixabay.com/photo/2017/02/20/14/18/business-2082639_960_720.jpg"
             style="width: 100%;height:45vh"
             >
-            <div class="absolute-bottom text-subtitle1 text-center text-bold">
-                flux
-            </div>
+              <div class="absolute-bottom text-subtitle1 text-center text-bold">
+                  flux
+              </div>
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>

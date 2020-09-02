@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
             <q-img
             transition="flip-right"
             src="https://cdn.pixabay.com/photo/2015/10/30/10/41/internet-1013671_960_720.jpg"
@@ -12,7 +12,7 @@
             </div>
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>
@@ -41,7 +41,7 @@
             />
         </div>
         <div class="col-12 q-pa-md text-center">
-            <q-btn rounded color="dark" icon="mail" icon-right="send" label="Envoyer un message" />
+            <q-btn rounded color="dark" icon-right="send" label="Envoyer un message" />
         </div>
       </div>
 
