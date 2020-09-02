@@ -8,7 +8,10 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "start": "node server.js",
+    "heroku": "npm i && npm run build && npm start"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
