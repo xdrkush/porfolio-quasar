@@ -11,7 +11,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "start": "node server.js",
-    "heroku": "npm i && npm run build && npm start"
+    "heroku-postbuild": "yarn && yarn build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
