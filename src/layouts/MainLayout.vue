@@ -1,10 +1,6 @@
 <template>
   <q-layout view="hHh Lpr lff" container style="height: 100vh" class="shadow-2 rounded-borders">
     <q-header elevated class="row no-wrap shadow-1 bg-black">
-      <!-- <q-toolbar>
-        <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
-        <q-toolbar-title>Hsuk Rd</q-toolbar-title>
-      </q-toolbar> -->
       <q-toolbar class="col-6">
         <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
         <q-toolbar-title>Hsuk Rd</q-toolbar-title>
