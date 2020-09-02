@@ -1,5 +1,5 @@
 # porfolio-quasar
-tuto porfolio quasar vue js
+tuto porfolio quasar vue js 100% front end
 
 # Installation
 
@@ -9,3 +9,6 @@ tuto porfolio quasar vue js
 npm i
 npm run dev
 ```
+
+Exemple:
+https://portfolio-quasar.herokuapp.com
