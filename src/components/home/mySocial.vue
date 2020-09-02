@@ -50,15 +50,16 @@ export default {
       title: 'mes réseaux ,',
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
       social: [
+        // Doc Static: https://quasar.dev/quasar-cli/handling-assets#Static-Assets---%2Fpublic
         {
           name: 'Twitter',
           link: 'https://twitter.com/',
-          img: 'https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/738px-Twitter_Bird.svg.png'
+          img: '../../licorn400.png' // /assets/licorn400.png
         },
         {
           name: 'Facebuk',
           link: 'https://mastodon.social/about',
-          img: 'https://pngimg.com/uploads/telegram/telegram_PNG19.png'
+          img: 'licorn400.png' // /public/licorn400.png
         },
         {
           name: 'Framasphere',
