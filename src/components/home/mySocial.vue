@@ -54,7 +54,7 @@ export default {
         {
           name: 'Twitter',
           link: 'https://twitter.com/',
-          img: '../../licorn400.png' // /assets/licorn400.png
+          img: require('../../assets/licorn4001.png') // /assets/licorn4001.png
         },
         {
           name: 'Facebuk',
